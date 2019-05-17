@@ -1,0 +1,58 @@
+.fundo{
+    background-color: blanchedalmond;
+}
+.container{
+    background-color: black;
+    background-image: url("../images/African-Sunset-Desktop-Wallpaper-1.jpg");
+    height: 731px;
+}
+.form-div{
+    margin-top: 20px;
+    width: 280px;
+    box-sizing: content-box;
+    padding: 40px;;
+    background-color: rgba(240, 240, 240,0.8);
+    border: 2px rgb(240, 240, 240) solid;
+}
+input[type=text],input[type=password]{
+    margin-bottom: 10px;
+    border-left: 0px;
+}
+form{
+    text-align: center;
+}
+p{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    color: black;
+}
+.input-group:focus{
+    border-color: rgba(139, 183, 226,0.5);
+    box-shadow:0 0 8px 0 rgba(139, 183, 226,0.5);
+}
+#basic-addon1,#basic-addon2{
+    border-radius: 0px;
+    border-right: 0px;
+    background-color: white;
+}
+.btn{
+    margin: 5px;
+}
+.Footer{
+    overflow: hidden;
+    padding-top: 15px;
+    border-top: 1px black solid;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 57px;
+}
+.Footer>p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #888;
+}
+
+.fa:before {font-family: FontAwesome !important;} 
+.icofont:before{font-family: 'IcoFont' !important;}
+
